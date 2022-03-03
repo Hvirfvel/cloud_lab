@@ -15,6 +15,7 @@ jobs:
   deploy:
     docker:
       - image: circleci/node
+      - image: cimg/python:3.10.2
     environment:
       AWS_REGION: eu-west-2
     steps:
